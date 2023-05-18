@@ -3,10 +3,11 @@ import AvailableMeals from "./AvaliableMeals";
 import { Fragment } from "react";
 
 const Meals = () => {
-    return (<Fragment>
-        <MealsSummary />
-        <AvailableMeals />
-    </Fragment>
+    return (
+        <Fragment>
+            <MealsSummary />
+            <AvailableMeals />
+        </Fragment>
     );
 };
 
